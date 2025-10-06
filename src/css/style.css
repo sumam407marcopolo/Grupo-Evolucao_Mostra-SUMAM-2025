@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+
+    background-color: #502783;
+    font-family: Bebas Neue, sans-serif;
+    color: white;
+
+}
+
+h2{
+    font-size: medium;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    margin: 5px;
+}
+
+header > h1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.desafioSection {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.desafioImages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+figure{
+    margin: 10px 0px;
+    overflow: hidden;
+    border-radius: 0px 0px 25px 25px;
+    background-color: white;
+    border: solid black 1px;
+    color: black;
+    font-size: 12px;
+    text-align: center;
+}
+
+section {
+    background-image: linear-gradient(167deg, rgba(191, 110, 59, 1) 50%, rgba(212, 149, 54, 1) 100%);
+    border-radius: 50px;
+    padding: 20px;
+}
+
+ol{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
