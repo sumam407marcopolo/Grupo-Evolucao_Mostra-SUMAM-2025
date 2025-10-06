@@ -1,18 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
 
-    background-color: #502783;
+    background: linear-gradient(115deg, #2e0a47, #56187f, #a24add);
     font-family: Bebas Neue, sans-serif;
     color: white;
 
 }
 
-h2{
+h2 {
     font-size: medium;
 }
 
 header {
+    font-size: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,12 +23,17 @@ header {
     padding: 10px;
     border-radius: 12px;
     margin-bottom: 20px;
-    margin: 5px;
+    margin: 15px;
+    text-align: justify;
 }
 
-header > h1 {
+header>h1 {
     text-align: center;
     padding: 1rem;
+}
+
+header>h2 {
+    font-size: 13px;
 }
 
 img {
@@ -35,7 +41,6 @@ img {
 }
 
 .desafioSection {
-    margin: 10px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -48,7 +53,7 @@ img {
     align-items: center;
 }
 
-figure{
+figure {
     margin: 10px 0px;
     overflow: hidden;
     border-radius: 0px 0px 25px 25px;
@@ -62,13 +67,13 @@ figure{
 section {
     background-image: linear-gradient(167deg, rgba(191, 110, 59, 1) 50%, rgba(212, 149, 54, 1) 100%);
     border-radius: 50px;
-    padding: 20px;
+    padding: 25px 20px;
+    margin: 10px;
 }
 
-ol{
+ol {
     max-width: 100%;
     display: flex;
-    justify-content: center;
-
+    justify-content: space-between;
 
 }
