@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-<<<<<<< HEAD
 /* ======== ESTILOS GERAIS ======== */
 
 
@@ -37,71 +36,16 @@ header {
     color: white;
     text-align: center;
     padding: 30px 10% 10% 10%;
-=======
-
-body {
-
-    background: linear-gradient(115deg, #2e0a47, #56187f, #a24add);
-    font-family: Bebas Neue, sans-serif;
-    color: white;
-
-}
-
-h2 {
-    font-size: medium;
-}
-
-header {
-    font-size: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    color: black;
-    padding: 10px;
-    border-radius: 12px;
-    margin-bottom: 20px;
-    margin: 15px;
-    text-align: justify;
-}
-
-header>h1 {
-    text-align: center;
-    padding: 1rem;
-}
-
-header>h2 {
-    font-size: 13px;
-}
-
-img {
-    max-width: 100%;
-}
-
-.desafioSection {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.desafioImages {
->>>>>>> 988cb9a430c83352164952495a48d90a721df230
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-<<<<<<< HEAD
 figure{
     border: solid 1px #bfc9cd;
     width: 100%;
     background-color: #bfc9cd;
     border-radius: 5px;
-=======
-figure {
-    margin: 10px 0px;
->>>>>>> 988cb9a430c83352164952495a48d90a721df230
     overflow: hidden;
 
 }
@@ -169,7 +113,6 @@ header a:hover {
     text-align: center;
 }
 
-<<<<<<< HEAD
 .data-table th {
     background-color: #e5f1ff;
 }
@@ -190,18 +133,3 @@ footer p {
 ul{
     list-style: none;
 }
-=======
-section {
-    background-image: linear-gradient(167deg, rgba(191, 110, 59, 1) 50%, rgba(212, 149, 54, 1) 100%);
-    border-radius: 50px;
-    padding: 25px 20px;
-    margin: 10px;
-}
-
-ol {
-    max-width: 100%;
-    display: flex;
-    justify-content: space-between;
-
-}
->>>>>>> 988cb9a430c83352164952495a48d90a721df230
