@@ -1,4 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+<<<<<<< HEAD
+/* ======== ESTILOS GERAIS ======== */
+
+
+* {
+    font-family: "Bebas Neue", Arial, sans-serif;
+}
+
+body {
+    background-color: #f7f8fa;
+    color: #222;
+    line-height: 1.6;
+}
+
+section {
+    padding: 60px 10%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+h1,
+h2,
+h3 {
+    color: #d39536;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* ======== HEADER ======== */
+header {
+    background: #21163b;
+    color: white;
+    text-align: center;
+    padding: 30px 10% 10% 10%;
+=======
 
 body {
 
@@ -47,23 +86,111 @@ img {
 }
 
 .desafioImages {
+>>>>>>> 988cb9a430c83352164952495a48d90a721df230
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
+<<<<<<< HEAD
+figure{
+    border: solid 1px #bfc9cd;
+    width: 100%;
+    background-color: #bfc9cd;
+    border-radius: 5px;
+=======
 figure {
     margin: 10px 0px;
+>>>>>>> 988cb9a430c83352164952495a48d90a721df230
     overflow: hidden;
-    border-radius: 0px 0px 25px 25px;
-    background-color: white;
-    border: solid black 1px;
-    color: black;
-    font-size: 12px;
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 25px;
+}
+
+header a {
+    background-image: linear-gradient(to right, #d39536 0%, #b84f26 51%, #d39536 100%);
+    color: #eee;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    margin-bottom: 25px;
+
+}
+
+header a:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ======== SEÇÕES ======== */
+.grid {
+    display: grid;
+    gap: 30px;
+}
+
+.two-columns {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    align-items: center;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.data-table th,
+.data-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
     text-align: center;
 }
 
+<<<<<<< HEAD
+.data-table th {
+    background-color: #e5f1ff;
+}
+
+/* ======== FOOTER ======== */
+footer {
+    background-color: #582f82;
+    color: white;
+    text-align: center;
+    padding: 40px 10%;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+ul{
+    list-style: none;
+}
+=======
 section {
     background-image: linear-gradient(167deg, rgba(191, 110, 59, 1) 50%, rgba(212, 149, 54, 1) 100%);
     border-radius: 50px;
@@ -77,3 +204,4 @@ ol {
     justify-content: space-between;
 
 }
+>>>>>>> 988cb9a430c83352164952495a48d90a721df230
