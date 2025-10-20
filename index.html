@@ -12,12 +12,17 @@
 
 <body>
     <header>
-        <h1>Projeto de Melhoria <br> Linha 407</h1>
+        <div class="sumamLogo">
+            <img src="src/images/logo2.PNG" alt="Logo SUMAM">
+            <p>SUMAM</p>
+        </div>
+        <h1>Projeto de Melhoria</h1>
+        <h2>Linha 407</h2>
         <p>Organização e segurança no armazenamento dos grampos de fixação do teto</p>
         <a href="#contexto">Ver Solução</a>
         <figure>
-            <a href="src/images/Grupo Evolução.JPG" data-lightbox="GrupoEvolução">
-            <img src="src/images/Grupo Evolução.JPG" alt="Imagem do Grupo SUMAM"></a>
+            <a href="src/images/Grupo Evolução.JPG" data-lightbox="GrupoEvolução" data-title="Grupo Evolução SUMAM">
+                <img src="src/images/Grupo Evolução.JPG" alt="Imagem do Grupo SUMAM"></a>
             <figcaption>Grupo Evolução 407 - SUMAM</figcaption>
         </figure>
     </header>
@@ -25,10 +30,35 @@
     <!-- ======== CONTEXTO ======== -->
     <section id="contexto">
         <h2>Contexto do Problema</h2>
-        <p>Na linha de montagem do modelo G8, os grampos de fixação do teto eram usados
-            nos postos <strong>125</strong> e <strong>160</strong>, 
-            mas não havia local definido para armazená-los após o uso.</p>
-        <p>Isso causava desorganização, riscos de acidentes e perda de tempo — cerca de <strong>48 minutos por dia</strong>.</p>
+        <p>Na linha de montagem 407 modelo G8, os grampos de fixação do teto são usados para prender o teto do veículo
+            Esses grampos são colocados no posto <strong>125</strong> e retirados no <strong>160</strong>.
+        </p>
+        <p> Depois de utilizados, os grampos não tinham um local definido para guardar. Eles eram deixados no chão,
+            apoiados em qualquer lugar ou até dentro dos carros.
+        </p>
+        <p>
+            Para retornarem para o posto <strong>125</strong>, um operador do posto <strong>160</strong> tinha que parar
+            sua atividade e levar de volta para o posto 125 manualmente.
+        </p>
+        <p>
+            Isso causava desorganização, riscos de acidentes e
+            perda de tempo — cerca de <strong>48 minutos por dia</strong>
+        </p>
+
+        <div class="imagens">
+            <figure>
+                <a href="src/images/GramposEscorados.jpeg" data-lightbox="contexto" data-title="GramposEscorados">
+                    <img src="src/images/GramposEscorados.jpeg" alt="">
+                </a>
+                <figcaption>Grampos Escorados</figcaption>
+            </figure>
+            <figure>
+                <a href="src/images/GramposFixados (2).jpeg" data-lightbox="contexto" data-title="Grampos Fixados">
+                    <img src="src/images/GramposFixados (2).jpeg" alt="">
+                </a>
+                <figcaption>Grampos fixados</figcaption>
+            </figure>
+        </div>
 
         <ul>
             <li>❌ Falta de local fixo para armazenamento</li>
@@ -38,23 +68,72 @@
         </ul>
     </section>
 
+    <!-- ======== ESTADO ATUAL ======== -->
+    <section id="estado-atual">
+        <h2>Estado Atual</h2>
+        <p>Antes da implementação da melhoria, o processo apresentava diversas falhas que impactavam a produtividade e a
+            segurança dos operadores:</p>
+
+        <ul>
+            <li>⚖️ <strong>Cada grampo pesa aproximadamente 14 kg</strong>, exigindo esforço físico para transporte
+                manual.</li>
+            <li>📦 <strong>Não existe embalagem nem local definido</strong> para guardar os grampos após o uso.</li>
+            <li>🚧 <strong>Grampos espalhados pelo chão e corredores</strong>, dificultando a passagem e aumentando o
+                risco de acidentes.</li>
+            <li>🔄 <strong>Sem processo padronizado de devolução:</strong> o operador do posto 160 precisa parar o
+                trabalho para levar os grampos no ombro até o posto 125, sem agregar valor à produção.</li>
+            <li>📏 <strong>Trajeto de aproximadamente 65 metros</strong> entre os postos, resultando em 390 metros
+                percorridos por dia e cerca de <strong>48 minutos de tempo perdido diariamente</strong>.</li>
+            <li>🔍 <strong>Ausência de local fixo no posto 125</strong> para armazenar os grampos devolvidos, aumentando
+                o tempo de procura e a desorganização.</li><br>
+        </ul>
+
+        <div class="imagens EstadoAtual">
+            <figure>
+                <a href="src/images/GramposFixados (2).jpeg" data-lightbox="contexto" data-title="Grampos Fixados">
+                    <img src="src/images/GramposSoltos.jpeg" alt="">
+                </a>
+                <figcaption>Grampos soltos</figcaption>
+            </figure>
+            <figure>
+                <video src="src/videos/TransporteManual.mp4" controls muted preload="metadata"></video>
+                <figcaption>Grampos fixados</figcaption>
+            </figure>
+        </div>
+        <p>Esses fatores evidenciam a necessidade de um <span class="highlight">sistema padronizado de armazenamento e
+                transporte</span> que garanta segurança, ergonomia e eficiência no processo.</p>
+    </section>
+
+
     <!-- ======== ANÁLISE ======== -->
     <section id="analise">
         <h2>Análise e Diagnóstico</h2>
         <p>Usamos ferramentas de qualidade para entender as causas do problema:</p>
         <ul>
             <li><strong>Diagrama de Ishikawa</strong>: analisamos Pessoas, Materiais e Metodologias</li>
+            <picture>
+                <a href="src/images/DiagramadeIshikawa.png" data-lightbox="Ishikawa" data-title="Diagrama de Ishikawa">
+                    <img src="src/images/DiagramadeIshikawa.png" alt="Diagrama de causas Ishikawa">
+                </a>
+            </picture>
             <li><strong>5 Porquês</strong>: identificamos a causa raiz — falta de padronização e controle visual</li>
+            <picture>
+                <a href="src/images/pessoas.png" data-lightbox="3causas" data-title="1. Pessoas">
+                    <img src="src/images/3causas.png" alt="">
+                </a>
+                <a href="src/images/materiais.png" data-lightbox="3causas" data-title="2. Materiais"></a>
+                <a href="src/images/metodo.png" data-lightbox="3causas" data-title="3. Métodos"></a>
+            </picture>
         </ul>
-        <p>👉 A ausência de um processo claro gerava falhas na segurança, organização e eficiência.</p>
+        <p>⚠️ A ausência de um processo claro gerava falhas na segurança, organização e eficiência.</p>
     </section>
 
     <!-- ======== PLANO ======== -->
     <section id="plano">
         <h2>Plano de Implementação</h2>
         <ul>
-            <li>📦 Definição de locais fixos nos postos 125 e 160</li>
-            <li>🛞 Uso de embalagens adequadas com rodízios</li>
+            <li>📍 Definição de locais fixos nos postos 125 e 160</li>
+            <li>🔁 Uso de embalagens adequadas com rodízios</li>
             <li>📋 Controle visual e demarcação das áreas</li>
             <li>👷 Treinamento dos operadores e padronização das rotinas</li>
         </ul>
@@ -65,8 +144,32 @@
     <section id="estado-futuro">
         <h2>Estado Futuro</h2>
         <p>Com a solução implantada, os grampos passaram a ser armazenados corretamente, com rotina clara e segura.</p>
+
+        <div class="imagens EstadoAtual">
+            <div class="imagens">
+                <figure>
+                    <a href="src/images/Embalagem.jpeg" data-lightbox="EstadoAtual"
+                        data-title="Carrinho para Transporte dos Grampos">
+                        <img src="src/images/Embalagem.jpeg" alt="Carrinho para Transporte dos Grampos">
+                    </a>
+                    <figcaption>Carrinho para Transporte dos Grampos</figcaption>
+                </figure>
+                <figure>
+                    <a href="src/images/LocalGrampos.jpeg" data-lightbox="EstadoAtual"
+                        data-title="Local Armazenamento dos Grampos">
+                        <img src="src/images/LocalGrampos.jpeg" alt="Local Armazenamento dos Grampos">
+                    </a>
+                    <figcaption>Local Armazenamento dos Grampos</figcaption>
+                </figure>
+            </div>
+            <figure>
+                <video src="src/videos/TransporteCarrinho.mp4" controls muted preload="metadata"></video>
+                <figcaption>Transporte com o Carrinho</figcaption>
+            </figure>
+        </div>
+
         <ul>
-            <li>🚀 Redução de deslocamento: de 390 m → 130 m/dia</li>
+            <li>📈 Redução de deslocamento: de 390 m → 130 m/dia</li>
             <li>🕒 Ganho de 40 minutos/dia</li>
             <li>✅ Processo padronizado e visualmente identificado</li>
         </ul>
@@ -126,13 +229,16 @@
         <h2>Conclusão</h2>
         <p><em>"Onde há desafio, há oportunidade de crescer."</em></p>
         <p><strong>Nós, do Grupo Evolução, evoluímos juntos!</strong></p>
+        <div class="sumamPessoas">
+            <img src="src/images/SumamPessoas.PNG">
+        </div>
     </section>
 
     <!-- ======== FOOTER ======== -->
     <footer>
-        <p>📍 Projeto desenvolvido pelo <strong>Grupo SUMAM - Evolução</strong></p>
+        <p>Projeto desenvolvido pelo <strong>Grupo Evolução - SUMAM</strong></p>
         <p>Data: Junho de 2025</p>
-        <p>Linha de Montagem 407</p>
+        <p>📍Linha de Montagem 407</p>
     </footer>
 
     <!-- ======== SCRIPTS ======== -->
