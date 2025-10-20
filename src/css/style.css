@@ -102,7 +102,7 @@ video {
     display: flex;
     justify-content: space-between;
     gap: 5px;
-    align-items: flex-end;
+    align-items: center;
     width: 100%;
 }
 
@@ -110,10 +110,15 @@ video {
     border: solid 1px var(--federal-blue);
     background-color: var(--federal-blue);
     height: 100%;
+    max-width: 700px;
 }
 
 .EstadoAtual {
     flex-direction: column;
+}
+
+.EstadoFuturo{
+    align-items: flex-end;
 }
 
 picture img {
